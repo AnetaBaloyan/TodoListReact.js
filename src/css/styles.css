@@ -1,0 +1,207 @@
+@import '~antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css?family=Kranky');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+html,
+body { 
+  background-color: #C0C0B0;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px !important;
+}
+
+h1 {
+  opacity: 1;
+  color: #fff;
+  padding: 10px;
+}
+
+/** {
+  z-index: -1;
+  position: relative;
+}*/
+
+#winter {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  /*border: 1px solid red;*/
+  background-color: transparent;
+ 
+}
+
+.heading {
+  background-color: #731509;
+  width: 100%;
+  height: 180px;
+  text-align: center;
+}
+
+.heading-title {
+  display: inline-block;
+  color: #FAFBF7 !important;
+  font-family: 'Kranky', cursive;
+  padding: 0px 30px 50px 10px;
+
+}
+
+.heading-img {
+  display: inline-block;
+  max-width: 100px;
+  padding-top: 10px;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .heading-title {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .heading-title {
+        font-size: 40px;
+    }
+}
+
+.add {
+  text-align: center;
+  margin: 50px;
+}
+
+.modalBtn {
+  font-size: 20px !important;
+  padding: 15px 15px 40px 15px;
+  border: none;
+  background-color: #468263;
+  margin: 40px;
+  margin-bottom: 25px;
+  color: #FAFBF7;
+}
+
+.modalBtn:hover {
+  background-color: #5AB89F;
+}
+
+.modalBtn:focus {
+  background-color: #5AB89F;
+}
+
+.btn-center {
+  display: block;
+  margin: 0 auto;
+}
+
+.todoStyle {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+     For mobile phones: 
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 968px) {
+    /* For Desktops: */
+    .todo-column {
+      margin: 10px 200px;
+    }
+}
+
+.header {
+  text-align: center;
+  height: 10vh;
+  background: rgba(122, 136, 160, 0.5)
+}
+
+.listDiv {
+  top: 100px;
+  background: #C19469;
+  border-radius: 6px; 
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 10px 14px;
+  margin-top: 0;
+  width: 90%;
+}
+
+.todo {
+  background: #FAFBF7;
+  border: 1px solid #a9b1bc;
+  margin: 8px 3px;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.todo p {
+  padding: 5px 1px 10px 1px;
+}
+
+.tableList {
+  margin: 10px;
+}
+
+.filterTag button {
+  margin-top: 40px;
+  font-size: 18px;
+  
+}
+
+.filterTag button:hover, .filterTag button:focus, .filterTag button:active {
+  border-color: #468263;
+  color: #468263;
+}
+
+button {
+  font-size: 16px !important;
+}
+
+.tabMain {
+  font-size: 16px !important;
+}
+
+table {
+  font-size: 16px !important;
+}
+
+tr:hover, tr:focus {
+  background-color: red;
+}
+
+.ant-pagination-item {
+  background-color: #468263;
+  border: none;
+}
+
+#colView, #tableView {
+  color: #FAFBF7;
+  margin: 15px;
+  font-size: 25px;
+
+}
+
+#colView {
+  margin-left: 0 !important;
+}
+
+.nav-item {
+    float: right;
+}
+
+.footer {
+  padding-bottom: 30px;
+}
+
+.record-icons {
+  float: right;
+}
+
+.record-icon {
+  font-size: 18px;
+  padding-right: 8px;
+}
+
+
